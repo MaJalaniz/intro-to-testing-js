@@ -30,3 +30,10 @@ describe('helloWorld', function() {
         expect(helloWorld()).not.toBe(undefined);
     });
 });
+//exercise 2
+describe('sayHello', function() {
+    it("should return a string 'sayHello' when executed", function() {
+        expect(typeof sayHello()).toBe("string");
+    });
+
+});
